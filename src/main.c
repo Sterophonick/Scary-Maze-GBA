@@ -9,4 +9,5 @@ int main()
 	hrt_DSPSetBGMode(3);
 	hrt_DSPDisableForceBlank();
 	hrt_DSPEnableOBJ();
+	smGameMain();
 }

@@ -3,7 +3,7 @@
 #include "game.h"
 #include "sound.h"
 
-void smAudioCues()
+void smAudioCue()
 {
 
 }
