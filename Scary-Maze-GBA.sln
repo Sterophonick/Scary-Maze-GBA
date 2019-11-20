@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D7CF4C93-84B6-4E45-8355-EA640EDEF569}"
+	ProjectSection(SolutionItems) = preProject
+		src\collision.c = src\collision.c
+		src\game.c = src\game.c
+		src\main.c = src\main.c
+		src\sound.c = src\sound.c
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{0E4960C7-F779-4F13-A31D-32F7500701DA}"
+	ProjectSection(SolutionItems) = preProject
+		include\collision.h = include\collision.h
+		include\game.h = include\game.h
+		include\sound.h = include\sound.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "other", "other", "{B9B284B5-AC34-41C9-B1DB-6CE37240FB28}"
+	ProjectSection(SolutionItems) = preProject
+		makefile = makefile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3247C42E-27D4-4A79-B5C1-0C92C9A37283}
+	EndGlobalSection
+EndGlobal
